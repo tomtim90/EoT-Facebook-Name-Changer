@@ -1,15 +1,16 @@
 ﻿{
 	"manifest_version": 2,
-	"name": "Current Year to 2016",
+	"name": "EoT Facebook Names to Toon Names",
 	"version": "1.0",
         "icons": {
         "128": "128.png"
         },
-	"description": "Replaces the text 'current year' with '2016'.",
+        "permissions": ["tabs","*://*.facebook.com/groups/temperanceguild/","webNavigation"],
+	"description": "Replaces real names with toon names only on Facebook.com",
 	"content_scripts": 
 	[
 		{
-			"matches": ["*://*/*"],
+			"matches": ["*://*.facebook.com/groups/temperanceguild/*"],
 			"js": ["content_script.js"],
 			"run_at": "document_end"
 		}
