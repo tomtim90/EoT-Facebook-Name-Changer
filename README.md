@@ -1,13 +1,13 @@
-current-year-to-2016
+EOT Facebook Name Changer
 =============
 
-![](logo.png)
+![](128.png)
 
-Chrome extension that replaces occurrences of 'the current year' with '2016'
+Chrome extension that replaces Facebook name with character names in Temperance's FB group.
 
 [Direct download of crx file](https://github.com/tomtim90/current-year-to-2016/blob/master/CurrentYearTo2016.crx?raw=true)
 
-This extensions takes the base of cloud-to-butt and uses it to remove the 'current year' meme with the actual current year. Extension will be updated to reflect current year in the current year.
+This extensions takes the base of cloud-to-butt and uses it to change people's names automatically on http://www.facebook.com/groups/temperanceguild/.
 
 Installation
 ------------
