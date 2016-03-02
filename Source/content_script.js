@@ -32,22 +32,21 @@ function handleText(textNode)
 	var v = textNode.nodeValue;
 
 	v = v.replace(/\bAndrew Mikielski\b/g, "Topsykret");
-	v = v.replace(/\bAntonio Renato\b/g, "Tonywalker");
 	v = v.replace(/\bAustin Barry\b/g, "Raanis");
 	v = v.replace(/\bBenjamin Bollinger\b/g, "Jhoren");
 	v = v.replace(/\bBryan Nelson\b/g, "Bob");
-	v = v.replace(/\bColin Heider\b/g, "Rscavenger");
 	v = v.replace(/\bDaniel Young\b/g, "Relyen");
 	v = v.replace(/\bDave Wyatt\b/g, "Chorde");
 	v = v.replace(/\bGeorge Wood\b/g, "Destroygrr");
 	v = v.replace(/\bGerald Hurd\b/g, "Jerry Bean");
 	v = v.replace(/\bJames Williams\b/g, "Magnitivo");
 	v = v.replace(/\bJamie Palesch\b/g, "Myn");
+	v = v.replace(/\bJeannette Campbell\b/g, "Sylriss");
 	v = v.replace(/\bJessica Rose Itkin\b/g, "Blessing");
 	v = v.replace(/\bJeff Corrales\b/g, "Jett");
 	v = v.replace(/\bJim Brakoniecki\b/g, "Jacknikolson");
 	v = v.replace(/\bJohn Muir\b/g, "Anakis");
-	v = v.replace(/\bJohnathan Henderson\b/g, "Hendo");
+	v = v.replace(/\bJonathan Henderson\b/g, "Hendo");
 	v = v.replace(/\bJorge Armando Hernández Ortiz\b/g, "Oni");
 	v = v.replace(/\bKeith Ross\b/g, "Zulu");
 	v = v.replace(/\bKelsey Murphy\b/g, "Ellyrinda");
@@ -65,10 +64,22 @@ function handleText(textNode)
 	v = v.replace(/\bTamara Davies\b/g, "Bitsey");
 	v = v.replace(/\bTim Scherer\b/g, "Debanda");
 	v = v.replace(/\bTommy Timberlake\b/g, "Wndrbrh");
+	v = v.replace(/\bTyler Thomas\b/g, "Runkie");
 	v = v.replace(/\bXuyang Yu\b/g, "Dunno");
 	v = v.replace(/\bZach Dumar\b/g, "Necrowolfs");
-	v = v.replace(/\bTyler Thomas\b/g, "Runkie");
-	
+        // 1.0.2 additions
+	v = v.replace(/\bDebbie Valle\b/g, "Aloriina");
+	v = v.replace(/\bAmer Adham\b/g, "Inductor");
+	v = v.replace(/\bJustin Fleming\b/g, "Mevan");
+	v = v.replace(/\bBharat Balaji\b/g, "Raz");
+	v = v.replace(/\bDillon Seegers\b/g, "Blippington");
+	v = v.replace(/\bFrederic Carneiro\b/g, "Sherkah");
+	v = v.replace(/\bKris Flynn\b/g, "Krahae");
+	v = v.replace(/\bLina J Morales\b/g, "Flaxaroo");
+	v = v.replace(/\bDouglas Dunn\b/g, "Volarr");
+        // 1.0.3 additions
+	v = v.replace(/\bSamantha Dotski\b/g, "Sammaa");
+
 	textNode.nodeValue = v;
 }                
 

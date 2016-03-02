@@ -1,12 +1,12 @@
 ﻿{
 	"manifest_version": 2,
 	"name": "EoT Facebook Names to Toon Names",
-	"version": "1.0",
+	"version": "1.0.3",
         "icons": {
         "128": "128.png"
         },
-        "permissions": ["tabs","*://*.facebook.com/groups/temperanceguild/","webNavigation"],
-	"description": "Replaces real names with toon names only on Facebook.com",
+        "permissions": ["*://*.facebook.com/groups/temperanceguild/"],
+	"description": "Replaces real names with toon names only on EOT Facebook Group.",
 	"content_scripts": 
 	[
 		{
